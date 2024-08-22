@@ -1,0 +1,10 @@
+email: example@gmail.com
+password: Password123
+
+court_number: 2
+booking_time_utc: 17:30
+booking_duration: 75
+club_name: Club padel Birmingham
+
+book_days_before: 3
+booking_opens_time_local: 08:00

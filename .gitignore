@@ -1,0 +1,10 @@
+venv/*
+wenv/*
+__pycache__/*
+build/*
+dist/*
+Playtomic script/*
+*.js
+Playtomic script.zip
+main.spec
+*.zip
