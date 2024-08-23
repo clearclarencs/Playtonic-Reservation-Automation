@@ -160,6 +160,7 @@ def run():
 
     inst.wait_for_drop(drop_date_time)
 
+    inst.login()
     payment_intent_id, first_payment_id = inst.atc(tenant_id=tenant_id, resource_id=resource_id, start=date_time_for_booking, duration=duration)
     inst.set_payment_method(payment_intent_id=payment_intent_id, first_payment_id=first_payment_id)
     inst.submit_order(payment_intent_id=payment_intent_id)
