@@ -1,4 +1,4 @@
-A script to automate booking of Playtonic courts
+A script to automate booking of Playtomic courts
 
 Fill config for credentials, note booking time is in UTC but booking opens time is in local machine time.
 
